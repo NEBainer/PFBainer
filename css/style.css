@@ -206,7 +206,7 @@ footer h2 {
         font-size: 15px;
     }
 }
-
+/* Medias Queries del carousel */
 @media (max-width: 580px) {
     #carouselWithCaptions .carousel-caption h5,
     #carouselWithCaptions2 .carousel-caption h5,
@@ -218,6 +218,8 @@ footer h2 {
         visibility: visible 
     }
 }
+
+/* Medias Queries de la pagina de formularios*/
 @media (max-width: 990px) {
     .espacioFormu {
         margin-bottom: 20px;
