@@ -161,17 +161,13 @@ footer h2 {
 }
 
 /* Estilos aplicados a la pagina de contacto(Formulario e informacion de contacto)*/
-
-.formulario1 {
-    text-align: center;
-    padding: 20px;
+.contacto {
+    text-align: left;
 }
 
-.infoo {
-    text-align: center;
-    margin-left: 50px;
+.container {
+    margin-top: 50px;
 }
-
 /* Estilos aplicados a los carrouseles*/
 .carousel-item img {
     height: 500px;
@@ -209,5 +205,26 @@ footer h2 {
     footer .contenedor3 .lista2 a {
         font-size: 15px;
     }
+}
 
+@media (max-width: 580px) {
+    #carouselWithCaptions .carousel-caption h5,
+    #carouselWithCaptions2 .carousel-caption h5,
+    #carouselWithCaptions3 .carousel-caption h5 {
+        font-size: 20px;
+        display: block;
+        color: black;
+        z-index: 1;
+        visibility: visible 
+    }
+}
+@media (max-width: 990px) {
+    .espacioFormu {
+        margin-bottom: 20px;
+    }
+
+    .contacto {
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
 }

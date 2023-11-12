@@ -55,28 +55,25 @@
         <img src="./img/Posible banner.jpg" alt="Las cositas dulces mas ricaS">
     </div>
     <!-- Formulario, telefono, direccion y email de la pagina-->
-    <main class="main">
-        <section>
-            <div class="formulario1">
-                <form action="procesar_formulario.php" method="post">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required><br><br>
-                    <label for="correo">Correo electrónico:</label>
-                    <input type="email" id="correo" name="correo" required><br><br>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono"><br><br>
-                    <label for="mensaje">Mensaje:</label><br>
-                    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
-                    <input type="submit" value="Enviar">
+    <main>
+        <section class="container">
+            <div class="row">
+            <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 espacioFormu">
+            <label for="formControlInput" class="form-label">Nombre:</label>
+            <input type="email" class="form-control" id="formControlInput" placeholder="Fulano Gomez">
+            <label for="formControlInput" class="form-label">Correo electrónico:</label>
+            <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">
+            <label for="formControlInput" class="form-label">Teléfono:</label>
+            <input type="email" class="form-control" id="formControlInput" placeholder="1122334455">
+            <label for="formControlInput" class="form-label">Mensaje:</label>
+            <input type="email" class="form-control" id="formControlInput" placeholder="Hola, queria contactarme con ustedes por que...." ><button type="button" class="btn btn-primary">Enviar</button>
             </div>
-            </form>
-            <div class="infoo">
-                <h2>Contactanos:</h2>
-                <p>Teléfono: 1100223344<br>
-
-                    Dirección: Loria 321, Entre Italia e Hipolito Irigoyen <br>
-
-                    Email: deliciascaseritas@gmail.com</p>
+            <div class="col-xl-4 col-lg-2 col-md-12 col-sm-12">
+            <h2 class="contacto">Contactanos:</h2>
+            <p>Teléfono: 1100223344</p>
+            <p>Dirección: Loria 321, Entre Italia e Hipolito Irigoyen</p>
+            <p>Email: deliciascaseritas@gmail.com</p>
+            </div>
             </div>
         </section>
     </main>
