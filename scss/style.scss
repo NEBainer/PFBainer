@@ -16,7 +16,7 @@ p {
 
 h2 {
     font-family: Pacifico;
-    font-size: $alCien-70px; 
+    font-size: $alCien - 70; 
     text-align: $centrado;
 }
 
@@ -40,14 +40,14 @@ header {
     background-color: #e93578;
     li {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: $alCien-80px; 
+        font-size: $alCien - 80px; 
         font-weight: 700;
     }   
 }
 /* Estilos del título */
 h1 {
     font-family: Pacifico;
-    font-size: $alCien-20px; 
+    font-size: $alCien - 20px; 
     text-align: $centrado;
 }
 
@@ -55,7 +55,7 @@ h1 {
 .contenedor {
     text-align: $centrado;
     img {
-        width: $anchoCien-40; 
+        width: $anchoCien - 40; 
         display: block;
         margin: 0 auto;
     }
@@ -67,8 +67,8 @@ h1 {
 
 /* Estilo para las imágenes dentro del index*/
 .container img {
-    width: $anchoCien*3px;
-    height: $altoCien*3px;
+    width: $alCien * 3;
+    height: $alCien * 3;
     border-radius: $alCien+20px;
 }
 
@@ -93,7 +93,7 @@ footer {
         li {
             margin: 20px 15px; 
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: $alCien-80px; 
+            font-size: $alCien - 80px; 
             font-weight: 700;
             a {
                 text-decoration: none;
@@ -107,15 +107,15 @@ footer {
     text-align: $centrado;
     h2 {
         font-family: Pacifico;
-        font-size: $alCien-70px; 
+        font-size: $alCien - 70px; 
     }
     p{
-        margin-right: $alCien-35px;
-        margin-left: $alCien-35px;
+        margin-right: $alCien - 35px;
+        margin-left: $alCien - 35px;
     }
     img{
-        width: $anchoCien-45;
-        height: $alCien*3px;
+        width: $anchoCien - 45;
+        height: $alCien*3;
     }
 }
 /* Estilos aplicados a la pagina con la ubicacion del lugar*/
@@ -130,48 +130,48 @@ footer {
     padding: 0 $alCien*3 0 $alCien*3;
     }
     iframe {
-        margin-left: $alCien-50px;
+        margin-left: $alCien - 50px;
         border: $borde;
     }
 } 
 /* Estilos aplicados a la pagina de contacto(Formulario e informacion de contacto)*/
 .container {
-    margin-top: $alCien-50px;
+    margin-top: $alCien - 50px;
     .contacto {
         text-align: left;
     }
 }
 /* Estilos aplicados a los carrouseles*/
 .carousel-item img {
-    height: $alCien*5px;
+    height: $alCien*5;
 }
 
 .subtcarru h2 {
-    margin: $alCien*8px;
+    margin: $alCien*8;
 }
 #carouselWithCaptions {
-    max-width: $alCien*12px;
+    max-width: $alCien*12;
     margin: auto;
 }
 
 #carouselWithCaptions2 {
-    max-width: $alCien*12px;
+    max-width: $alCien*12;
     margin: auto;
 }
 
 #carouselWithCaptions3 {
-    max-width: $alCien*12px;
+    max-width: $alCien*12;
     margin: auto;
 }
 .carousel-caption h5 {
     font-family: pacifico;
-    font-size: $alCien-70px; 
+    font-size: $alCien - 70px; 
     text-align: $centrado;
     color: black;
 }
 
 .subtcarru {
-    margin: $alCien-70px;
+    margin: $alCien - 70px;
 }
 
 @import "./partials/mediaqueries"
