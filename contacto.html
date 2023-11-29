@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Delicias de casa</title>
 </head>
 
@@ -71,6 +74,9 @@
         <section class="container">
             <div class="row">
             <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12 espacioFormu">
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <label for="formControlInput" class="form-label">Nombre:</label>
             <input type="email" class="form-control" id="formControlInput" placeholder="Fulano Gomez">
             <label for="formControlInput" class="form-label">Correo electrónico:</label>
@@ -80,11 +86,16 @@
             <label for="formControlInput" class="form-label">Mensaje:</label>
             <input type="email" class="form-control" id="formControlInput" placeholder="Hola, queria contactarme con ustedes por que...." ><button type="button" class="btn btn-primary">Enviar</button>
             </div>
+            </div>
             <div class="col-xl-4 col-lg-2 col-md-12 col-sm-12">
+            <div data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
             <h2 class="contacto">Contactanos:</h2>
             <p>Teléfono: 1100223344</p>
             <p>Dirección: Loria 321, Entre Italia e Hipolito Irigoyen</p>
             <p>Email: deliciascaseritas@gmail.com</p>
+            </div>
             </div>
             </div>
         </section>
@@ -118,6 +129,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+<!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
