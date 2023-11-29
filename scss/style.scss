@@ -1,0 +1,184 @@
+@import "./partials/variables";
+@import "./partials/resets";
+
+/* Estilos generales */
+body {
+    background-color: #fadca4;
+    width: $anchoCien;
+    height: $altoCien;
+}
+
+p {
+    font-family: 'Crimson Text';
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h2 {
+    font-family: Pacifico;
+    font-size: $alCien-70px; 
+    text-align: $centrado;
+}
+
+img {
+    border: $borde;
+}
+
+header, footer {
+    width: $anchoCien;
+    object-fit: cover;
+}
+/* Estilos del encabezado */
+header {
+    background-color:$chicle;
+    width: $anchoCien;
+    height: $altoCien;
+    border: $borde;
+}
+/* Estilos de la barra de navegación */
+.container-fluid {
+    background-color: #e93578;
+    li {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: $alCien-80px; 
+        font-weight: 700;
+    }   
+}
+/* Estilos del título */
+h1 {
+    font-family: Pacifico;
+    font-size: $alCien-20px; 
+    text-align: $centrado;
+}
+
+/* Estilos del banner */
+.contenedor {
+    text-align: $centrado;
+    img {
+        width: $anchoCien-40; 
+        display: block;
+        margin: 0 auto;
+    }
+}
+/* Estilos del párrafo debajo del banner */
+.contenedor1 {
+    text-align: $centrado;
+}
+
+/* Estilo para las imágenes dentro del index*/
+.container img {
+    width: $anchoCien*3px;
+    height: $altoCien*3px;
+    border-radius: $alCien+20px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: $chicle;
+    width: $anchoCien;
+    height: $altoCien;
+    margin-top: $alCien;
+    border: $borde;
+    h2 {
+        text-align: $centrado;
+    }
+}
+/* Estilos de los enlaces del footer */
+.contenedor3 {
+    text-align: $centrado;
+    .lista2 {
+        list-style: none;
+        display: flex;
+        justify-content: $centrado;
+        li {
+            margin: 20px 15px; 
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: $alCien-80px; 
+            font-weight: 700;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+/* Estilos del párrafo que cuenta la historia del lugar en nosotros*/
+.historia {
+    text-align: $centrado;
+    h2 {
+        font-family: Pacifico;
+        font-size: $alCien-70px; 
+    }
+    p{
+        margin-right: $alCien-35px;
+        margin-left: $alCien-35px;
+    }
+    img{
+        width: $anchoCien-45;
+        height: $alCien*3px;
+    }
+}
+/* Estilos aplicados a la pagina con la ubicacion del lugar*/
+.ubicacion {
+    text-align: $centrado;
+    h2{
+        text-align: $centrado;
+    }
+    
+    p{
+    text-align: $centrado;
+    padding: 0 $alCien*3 0 $alCien*3;
+    }
+    iframe {
+        margin-left: $alCien-50px;
+        border: $borde;
+    }
+} 
+/* Estilos aplicados a la pagina de contacto(Formulario e informacion de contacto)*/
+.container {
+    margin-top: $alCien-50px;
+    .contacto {
+        text-align: left;
+    }
+}
+/* Estilos aplicados a los carrouseles*/
+.carousel-item img {
+    height: $alCien*5px;
+}
+
+.subtcarru h2 {
+    margin: $alCien*8px;
+}
+#carouselWithCaptions {
+    max-width: $alCien*12px;
+    margin: auto;
+}
+
+#carouselWithCaptions2 {
+    max-width: $alCien*12px;
+    margin: auto;
+}
+
+#carouselWithCaptions3 {
+    max-width: $alCien*12px;
+    margin: auto;
+}
+.carousel-caption h5 {
+    font-family: pacifico;
+    font-size: $alCien-70px; 
+    text-align: $centrado;
+    color: black;
+}
+
+.subtcarru {
+    margin: $alCien-70px;
+}
+
+@import "./partials/mediaqueries"
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+@import "./resets";
+
+/* Medias Queries */
+@media (max-width:400px) {
+    footer .contenedor3 .lista2 a {
+        font-size: 15px;
+    }
+}
+/* Medias Queries del carousel */
+@media (max-width: 580px) {
+    #carouselWithCaptions .carousel-caption h5,
+    #carouselWithCaptions2 .carousel-caption h5,
+    #carouselWithCaptions3 .carousel-caption h5 {
+        font-size: 20px;
+        display: block;
+        color: black;
+        z-index: 1;
+        visibility: visible 
+    }
+}
+
+/* Medias Queries de la pagina de formularios*/
+@media (max-width: 990px) {
+    .espacioFormu {
+        margin-bottom: 20px;
+    }
+
+    .contacto {
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
+}
