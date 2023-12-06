@@ -2,7 +2,8 @@
 /*ancho y alto predeterminado a usar*/
 /*borde con grosor que utilizo para varias cosas*/
 /*centrado predeterminado a utilizar mayormente*/
-/*color que utilizo en varios lugares*/
+/*color que utilizo para el encabezado y el pie de pagina*/
+/*color que utilizo para el body en general como fondo*/
 * {
   padding: 0;
   margin: 0;
@@ -13,7 +14,7 @@
 
 /* Estilos generales */
 body {
-  background-color: #fadca4;
+  background-color: #fadca4 !important;
   width: 100%;
   height: 100%;
 }
@@ -84,6 +85,7 @@ h1 {
   width: 300px;
   height: 300px;
   border-radius: 120px;
+  text-align: center;
 }
 
 /* Estilos del footer */
@@ -192,6 +194,28 @@ footer h2 {
 
 .subtcarru {
   margin: 30px;
+}
+
+/* Estilos aplicados a la pagina de error 404*/
+.error4 {
+  font-family: "Arial", sans-serif;
+  background-color: #fadca4;
+  color: black;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.error4 h1 {
+  color: #e93578;
+}
+
+.error40 {
+  max-width: 600px;
+  text-align: center;
 }
 
 * {
