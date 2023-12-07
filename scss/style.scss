@@ -134,18 +134,29 @@ footer {
 }
 /* Estilos aplicados a la pagina con la ubicacion del lugar*/
 .ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: $centrado;
     text-align: $centrado;
+
+    div {
+        max-width: 800px;
+        width: 100%;
+    }
+
     h2{
         text-align: $centrado;
     }
     
     p{
     text-align: $centrado;
-    padding: 0 $alCien*3 0 $alCien*3;
+    padding: 0 $alCien $alCien - 70 $alCien;
     }
     iframe {
         margin-left: $alCien - 50px;
         border: $borde;
+        height: $alCien * 3;
+        width: $alCien * 5;
     }
 } 
 /* Estilos aplicados a la pagina de contacto(Formulario e informacion de contacto)*/
@@ -157,33 +168,27 @@ footer {
 }
 /* Estilos aplicados a los carrouseles*/
 .carousel-item img {
-    height: $alCien*5;
+    height: $alCien*4.5;
+    width: $alCien;
 }
 
 .subtcarru h2 {
     margin: $alCien*8;
 }
 #carouselWithCaptions {
-    max-width: $alCien*12;
+    max-width: $alCien*9;
     margin: auto;
 }
 
 #carouselWithCaptions2 {
-    max-width: $alCien*12;
+    max-width: $alCien*9;
     margin: auto;
 }
 
 #carouselWithCaptions3 {
-    max-width: $alCien*12;
+    max-width: $alCien*9;
     margin: auto;
 }
-.carousel-caption h5 {
-    font-family: pacifico;
-    font-size: $alCien - 70px; 
-    text-align: $centrado;
-    color: black;
-}
-
 .subtcarru {
     margin: $alCien - 70px;
 }

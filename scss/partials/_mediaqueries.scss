@@ -30,3 +30,10 @@
         margin-bottom: 20px; 
     }
 }
+
+/* Medias Queries de la pagina de nuestroLocal*/
+@media (max-width: 600px) {
+    .ubicacion iframe {
+        width: 300px;
+    }
+}

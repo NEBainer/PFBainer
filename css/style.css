@@ -150,18 +150,27 @@ footer h2 {
 
 /* Estilos aplicados a la pagina con la ubicacion del lugar*/
 .ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
+}
+.ubicacion div {
+  max-width: 800px;
+  width: 100%;
 }
 .ubicacion h2 {
   text-align: center;
 }
 .ubicacion p {
   text-align: center;
-  padding: 0 300px 0 300px;
+  padding: 0 100px 30px 100px;
 }
 .ubicacion iframe {
   margin-left: 50px;
   border: solid 5px;
+  height: 300px;
+  width: 500px;
 }
 
 /* Estilos aplicados a la pagina de contacto(Formulario e informacion de contacto)*/
@@ -174,7 +183,8 @@ footer h2 {
 
 /* Estilos aplicados a los carrouseles*/
 .carousel-item img {
-  height: 500px;
+  height: 450px;
+  width: 100px;
 }
 
 .subtcarru h2 {
@@ -182,25 +192,18 @@ footer h2 {
 }
 
 #carouselWithCaptions {
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
 }
 
 #carouselWithCaptions2 {
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
 }
 
 #carouselWithCaptions3 {
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
-}
-
-.carousel-caption h5 {
-  font-family: pacifico;
-  font-size: 30px;
-  text-align: center;
-  color: black;
 }
 
 .subtcarru {
@@ -263,6 +266,12 @@ footer h2 {
   .contacto {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+}
+/* Medias Queries de la pagina de nuestroLocal*/
+@media (max-width: 600px) {
+  .ubicacion iframe {
+    width: 300px;
   }
 }
 
