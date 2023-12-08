@@ -45,6 +45,12 @@ header {
         font-size: $alCien - 80px; 
         font-weight: 700;
     }  
+/* Estilo de hover para los enlaces en el navbar */
+.navbar-nav a:hover {
+    color: $galleta; 
+    background-color: #9e033c; 
+    transition: color 0.3s ease-in-out;
+}
 
 /* Estilos del Logo de la página*/
     .navbar-brand img{
@@ -53,6 +59,7 @@ header {
         border: none;
     }
 }
+
 /* Estilos del título */
 h1 {
     font-family: Pacifico;
@@ -85,6 +92,12 @@ h1 {
     height: $alCien * 3;
     border-radius: $alCien+20px;
     text-align: $centrado;
+
+    &:hover {
+        width: $alCien * 3.2;
+        height: $alCien * 3.2;
+        transition: 0.3s ease-in-out;
+    }
 }
     h2 {
         text-align: $centrado;
@@ -98,6 +111,23 @@ footer {
     height: $altoCien;
     margin-top: $alCien;
     border: $borde;
+
+    nav {
+        .lista2 {
+            li {
+                a {
+                color: $galleta; 
+                transition: color 0.3s ease-in-out;
+    
+                    &:hover {
+                color: $galleta;
+                background-color: #9e033c;
+                    }
+                }
+            }
+        }
+    }
+    
     h2 {
         text-align: $centrado;
     }
@@ -135,6 +165,7 @@ footer {
     img{
         width: $anchoCien - 45;
         height: $alCien*3;
+        border-radius: $alCien + 20;
     }
 }
 /* Estilos aplicados a la pagina con la ubicacion del lugar*/
