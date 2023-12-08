@@ -14,7 +14,7 @@
 
 /* Estilos generales */
 body {
-  background-color: #fadca4 !important;
+  background-color: #fadca4;
   width: 100%;
   height: 100%;
 }
@@ -99,6 +99,11 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
 /* Estilos del footer */
 footer {
   background-color: #e93578;
@@ -177,6 +182,22 @@ footer h2 {
 .container {
   margin-top: 50px;
 }
+.container label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 0 5px 0;
+}
+.container input {
+  border: solid 2px;
+}
+.container .botoncito {
+  padding-top: 15px;
+}
+.container button {
+  color: black;
+  background-color: #e93578;
+}
 .container .contacto {
   text-align: left;
 }
@@ -248,14 +269,33 @@ footer h2 {
 }
 /* Medias Queries del carousel */
 @media (max-width: 580px) {
-  #carouselWithCaptions .carousel-caption h5,
-  #carouselWithCaptions2 .carousel-caption h5,
-  #carouselWithCaptions3 .carousel-caption h5 {
-    font-size: 20px;
-    display: block;
-    color: black;
-    z-index: 1;
-    visibility: visible;
+  .carousel-item img {
+    height: 350px;
+    width: 100px;
+  }
+  #carouselWithCaptions {
+    max-width: 400px;
+  }
+  #carouselWithCaptions2 {
+    max-width: 400px;
+  }
+  #carouselWithCaptions3 {
+    max-width: 400px;
+  }
+}
+@media (max-width: 401px) {
+  .carousel-item img {
+    height: 300px;
+    width: 100px;
+  }
+  #carouselWithCaptions {
+    max-width: 300px;
+  }
+  #carouselWithCaptions2 {
+    max-width: 300px;
+  }
+  #carouselWithCaptions3 {
+    max-width: 300px;
   }
 }
 /* Medias Queries de la pagina de formularios*/

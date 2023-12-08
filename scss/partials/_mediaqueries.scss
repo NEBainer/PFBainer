@@ -8,14 +8,40 @@
 }
 /* Medias Queries del carousel */
 @media (max-width: 580px) {
-    #carouselWithCaptions .carousel-caption h5,
-    #carouselWithCaptions2 .carousel-caption h5,
-    #carouselWithCaptions3 .carousel-caption h5 {
-        font-size: 20px;
-        display: block;
-        color: black;
-        z-index: 1;
-        visibility: visible 
+    .carousel-item img {
+        height: $alCien*3.5;
+        width: $alCien;
+    }
+
+    #carouselWithCaptions {
+        max-width: $alCien*4;
+    }
+    
+    #carouselWithCaptions2 {
+        max-width: $alCien*4;
+    }
+    
+    #carouselWithCaptions3 {
+        max-width: $alCien*4;
+    }
+}
+
+@media (max-width: 401px) {
+    .carousel-item img {
+        height: $alCien*3;
+        width: $alCien;
+    }
+
+    #carouselWithCaptions {
+        max-width: $alCien*3;
+    }
+    
+    #carouselWithCaptions2 {
+        max-width: $alCien*3;
+    }
+    
+    #carouselWithCaptions3 {
+        max-width: $alCien*3;
     }
 }
 
