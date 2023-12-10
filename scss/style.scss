@@ -268,9 +268,10 @@ footer {
     }
 
     .triste {
-        height: $alCien * 2;
-        width: $alCien * 2;
+        height: $alCien * 1.5;
+        width: $alCien * 1.5;
         border: none;
+        animation-duration: 2s;
     }
 }
 

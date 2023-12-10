@@ -268,9 +268,10 @@ footer h2 {
   font-size: 60px;
 }
 .error4 .triste {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: none;
+  animation-duration: 2s;
 }
 
 .error40 {
