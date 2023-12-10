@@ -189,7 +189,6 @@ footer {
     padding: 0 $alCien $alCien - 70 $alCien;
     }
     iframe {
-        margin-left: $alCien - 50px;
         border: $borde;
         height: $alCien * 3;
         width: $alCien * 5;
@@ -256,14 +255,22 @@ footer {
     background-color: $galleta;
     color: black;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+
     h1 {
         color: $chicle;
+        font-size: $alCien - 40;
+    }
+
+    .triste {
+        height: $alCien * 2;
+        width: $alCien * 2;
+        border: none;
     }
 }
 
