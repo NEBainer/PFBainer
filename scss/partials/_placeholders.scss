@@ -1,0 +1,22 @@
+@import "./_variables.scss";
+
+
+/*Placeholder que uso para un ancho y alto predeterminado en algunos sectores*/
+%todo100 {
+    width: $anchoCien;
+    height: $altoCien;
+}
+
+/*Placeholder que uso para ciertas caracteristicas en comun del encabezado y pie de pagina*/
+%encabezado-pie {
+    background-color: $chicle;
+    @extend %todo100;
+    border: $borde;
+}
+
+/*Placeholder que uso para estilos de texto comun*/
+%texto-comun {
+    font-family: $parrafos;
+    font-size: $taparrafos;
+    font-weight: $alCien * 6;
+}

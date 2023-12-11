@@ -1,12 +1,51 @@
+/*Map que utilizo para los colores*/
+$colores: (galleta: #fadca4, chicle: #e93578, vinito:#9e033c, oscurito:black);
+
+/*color que utilizo para el encabezado y el pie de pagina*/
+$chicle: map-get($colores, chicle);
+
+/*color que utilizo para el body en general como fondo*/
+$galleta: map-get($colores, galleta);
+
+/*color que utilizo para el hover*/
+$vinito: map-get($colores, vinito );
+
+/*color que utilizo para las letras del footer y navbar*/
+$oscurito: map-get($colores, oscurito);
+
 /*ancho y alto predeterminado a usar*/
 $anchoCien: 100%;
 $altoCien: 100%;
+
 /*borde con grosor que utilizo para varias cosas*/
 $borde: solid 5px;
+
 /*centrado predeterminado a utilizar mayormente*/
 $centrado: center;
 $alCien: 100px;
-/*color que utilizo para el encabezado y el pie de pagina*/
-$chicle: #e93578;
-/*color que utilizo para el body en general como fondo*/
-$galleta: #fadca4;
+
+/*Variable que utilizo para pantallas pequeñas*/
+$small-screen: 400px;
+
+/*Variable que utilizo para pantallas medianas*/
+$medium-screen: 500px;
+
+/*Variable que utilizo para pantallas largas*/
+$large-screen: 600px;
+
+/*Variable que utilizo para pantallas Extralargas*/
+$extralarge-screen: 990px;
+
+/*Variables que utilizo para los tamaños de fuentes*/
+$taparrafos: 22px;
+$tah2: $alCien - 70;
+
+/*Variables que utilizo para los tipografias de letras*/
+$parrafos: 'Crimson Text';
+$tipoh2y1: 'Pacifico';
+
+/*Variables que utilizo para las transiciones*/
+$duracion-transicion: 0.3s;
+
+/*Variables que utilizo para el atributo NONE en algunas partes*/
+$nadaa: none;
